@@ -1,0 +1,21 @@
+# Python Virtual Environment
+venv/
+.venv/
+env/
+
+# PyInstaller builds
+build/
+dist/
+*.spec
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Engine folder
+KomodoEngine/
+
+# Build scripts and backups
+build.bat
+create-venv.ps1
+*version*files*/
