@@ -1,6 +1,11 @@
-# Tidypy Chess Interval Analyzer
+## KOMODO Edition: Tidypy Chess Interval Analyzer
 
-Portable desktop tool for creating engine-verified chess repertoires using **Interval Analysis**.
+To be use with **KOMODO TUNER**:  https://github.com/tidypy/KomodoTUNER.git
+
+*BECUAUSE:  Komodo uses a proprietary UCI Protocol.*  And I had to refactor the tool just for the MCTS that is meaningful and unique to the Komodo Engine. 
+
+
+A Portable desktop tool for creating engine-verified chess repertoires using **Interval Analysis**.
 
 LESS COMMONLY KNOWN AS:  **Tabiyas (pronounced Tah-bee-yuhs) Tables.**
 It is a specific term from the Arabic roots of chess (Shatranj) that has survived into modern engine programming.
