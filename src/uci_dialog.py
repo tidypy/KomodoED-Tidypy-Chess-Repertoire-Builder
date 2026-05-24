@@ -4,7 +4,7 @@ import sys
 import subprocess
 import chess.engine
 from pathlib import Path
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 from PyQt6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QGroupBox,
@@ -271,7 +271,7 @@ class UCIConfigDialog(QDialog):
         # Set initial state of interdependent options
         self._enforce_larry_rules()
 
-    def _create_widget_for_option(self, name: str, opt: dict) -> QWidget | None:
+    def _create_widget_for_option(self, name: str, opt: dict) -> Optional[QWidget]:
         """Create appropriate widget for UCI option type - bulletproof version."""
         opt_type = opt.get('type', 'string')
         default = opt.get('default')
